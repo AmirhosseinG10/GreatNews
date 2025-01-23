@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/26a3c7a1d7.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body onload="Set_Date()">
+    <section class="app">
+
+        <header class="header">
+            <section class="header-row header-row--bg-dark d-flex ">
+                <nav class="top-menu d-flex">
+                    <section class="header-col top-menu__lang-and-time-section d-flex">
+                        <span class="top-menu__item lang-box d-flex"> زبان <i class="fas fa-language"></i></span>
+                        <span class="top-menu__item date-box"></span>
+                    </section>
+
+                    <section class="header-col top-menu__menu-section d-flex">
+                        <section class="top-menu__logo-768px">
+                            <i class="fa fa-bars top-menu__burger"></i>
+                            <i class="fa fa-search"></i>
+                        </section>
+                        <section>
+                            <ul class="top-menu__menu d-flex">
+                                <li class="top-menu__item"><a id="Active" href="#" class="top-menu__link"> صفحه
+                                        اصلی </a>
+                                </li>
+                                <li class="top-menu__item"><a href="Register.html"
+                                        class="top-menu__link">عضویت</a></li>
+                                <li class="top-menu__item"><a href="#" class="top-menu__link">درباره ما</a>
+                                </li>
+                                <li class="top-menu__item"><a href="#" class="top-menu__link">نویسندگان</a>
+                                </li>
+                                <li class="top-menu__item"><a href="#" class="top-menu__link">تماس با ما
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+
+                    </section>
+
+
+
+                    <section class="header-col top-menu__social-media-section d-flex">
+                        <nav class="top-menu__social-media-menu d-flex">
+                            <li><a class="top-menu__social-media-link" href="#"><i class="fa fa-twitter social-media-icon"></i></a></li>
+                            <li><a class="top-menu__social-media-link" href="#"><i class="fa fa-instagram social-media-icon"></i></a></li>
+                            <li><a class="top-menu__social-media-link" href="#"><i class="fa fa-telegram social-media-icon"></i></a></li>
+                            <li><a class="top-menu__social-media-link" href="#"><i class="fa fa-facebook-official social-media-icon"></i></a></li>
+                            <li><a class="top-menu__social-media-link" href="#"><i class="fab fa-youtube social-media-icon"></i></a></li>
+                        </nav>
+                    </section>
+
+
+                </nav>
+            </section>
+            
+            <section class="header-row d-flex">
+                <section class="header-second-section w-90 d-flex">
+                    <section class="header-logo-section">
+                        <a class="header-logo-link" href="#"><img class="logo" src="images/logo.png" alt="Matrix"></a>
+                    </section>
+
+                    <section class="search-box-section d-flex">
+                        <label for="search-box"></label>
+                        <input type="search" name="search-box" class="search-box"
+                            placeholder="خبر موردنظر خود را پیدا کنید...">
+                        <i class="fa fa-search search-icon"></i>
+
+                    </section>
+
+                    <section class="header-weather d-flex">
+                        <a href="#" class="d-flex">
+                            <section class="section-col">
+                                <span class="city">تهران</span><br>
+                                <span class="temp">30</span>
+                            </section>
+                            <section class="section-col"><i class="weather-icon"></i></section>
+                        </a>
+                    </section>
+
+
+                </section>
+            </section>
+            <section class="header-row d-flex">
+                <section class="main-menu-section d-flex">
+                    <nav class="main-menu">
+                        <ul>
+                            <li class="main-menu-item dropdown"><a href="#" class="main-menu-item-link">
+                                    فرهنگ<i class="fa fa-chevron-down"></i></a>
+                                <div id="first-box" class="dropdown-content">
+                                    <a href="#">ادبیات و نشر</a>
+                                    <a href="#">رادیو و تلویزیون</a>
+                                    <a href="#">‌دین ، قرآن و اندیشه</a>
+                                    <a href="#">‌دین ، قرآن و اندیشه</a>
+                                    <a href="#">سینما و تئاتر</a>
+                                    <a href="#">موسیقی و تجسمی</a>
+                                </div>
+                            </li>
+                            <li class="main-menu-item dropdown"><a href="#" class="main-menu-item-link">
+                                    ورزش <i class="fa fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#">فوتبال ایران</a>
+                                    <a href="#">فوتبال جهان</a>
+                                    <a href="#">والیبال | بسکتبال | هندبال</a>
+                                    <a href="#">کشتی و وزنه‌برداری</a>
+                                    <a href="#">ورزش های رزمی</a>
+                                    <a href="#">ورزش جهان</a>
+                                </div>
+                            </li>
+                            <li class="main-menu-item dropdown"><a href="#" class="main-menu-item-link">
+                                    سیاست <i class="fa fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#">سیاست ایران</a>
+                                    <a href="#">نظامی | دفاعی | امنیتی</a>
+                                    <a href="#">گزارش و تحلیل سیاسی</a>
+                                    <a href="#">مجلس و دولت</a>
+                                </div>
+                            </li>
+                            <li class="main-menu-item dropdown"><a href="#" class="main-menu-item-link">
+                                    اقتصاد <i class="fa fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#">اقتصاد ایران</a>
+                                    <a href="#">پول | ارز | بانک</a>
+                                    <a href="#">خودرو</a>
+                                    <a href="#">صنعت و تجارت</a>
+                                    <a href="#">نفت و انرژی</a>
+                                    <a href="#">فناوری اطلاعات | اینترنت | موبایل</a>
+                                    <a href="#">کار آفرینی و اشتغال</a>
+                                    <a href="#">راه و مسکن</a>
+                                    <a href="#">بازار سهام | بورس</a>
+                                    <a href="#">کشاورزی</a>
+                                    <a href="#">اقتصاد جهان</a>
+                                </div>
+                            </li>
+                            <li class="main-menu-item dropdown"><a href="#" class="main-menu-item-link">
+                                    هواشناسی <i class="fa fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#">فوتبال</a>
+                                    <a href="#">والیبال</a>
+                                    <a href="#">بستکتبال</a>
+                                </div>
+                            </li>
+                            <!-- <li><a href="#"><i></i> اخبار  <i class="fa fa-chevron-down"></i></a></li> -->
+                        </ul>
+                    </nav>
+
+                </section>
+            </section>
+        </header>
+
+        <section class="intro">
+            <section class="intro-news d-flex">
+                <section class="intro-section">
+                    <section class="intro-row">
+                        <section class="intro-1-2-col">
+                            <section class="img-bg bg_1 h-100">
+                                <section class="intro-item-caption d-flex">
+                                    <h3 class="caption-title ">
+                                        <span>
+                                            بیت کوین مرز 60,000 دلار را شکست!
+                                        </span>
+                                    </h3>
+                                    <ul class="caption-info-bar d-flex">
+                                        <a href="#">
+                                            <li><i class="material-icons">account_box</i> امیرحسین گل
+                                                ختاب </li>
+                                        </a>
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+
+                                        <li><i class="fas fa-comments text-yellow"></i>30</li>
+                                    </ul>
+                                </section>
+                            </section>
+                        </section>
+
+                        <section class="intro-1-2-col">
+                            <section class="intro-row">
+                                <section class="img-bg bg_2 h-100">
+                                    <section class="intro-item-caption d-flex">
+                                        <h3 class="caption-title ">
+                                            <span>
+                                                فستیوال بزرگ در لندن، حضور ملکه همراه با تصاویر
+                                            </span>
+                                        </h3>
+                                        <ul class="caption-info-bar d-flex">
+                                            <a href="#">
+                                                <li><i class="material-icons">account_box</i> امیرحسین گل
+                                                    ختاب </li>
+                                            </a>
+                                            <li>پنجشنبه، ۳۰ مرداد ۱۴۰۰</li>
+
+                                            <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                        </ul>
+                                    </section>
+                                </section>
+
+                            </section>
+                            <section class="intro-row">
+                                <section class="intro-1-2-col">
+                                    <section class="img-bg bg_3 h-100">
+                                        <section class="intro-item-caption d-flex">
+                                            <h3 class="caption-title ">
+                                                <span>
+                                                    قیمت ماشین جدید لامبرگینی
+                                                </span>
+                                            </h3>
+                                            <ul class="caption-info-bar d-flex">
+                                                <a href="#">
+                                                    <li><i class="material-icons">account_box</i> امیرحسین گل
+                                                        ختاب </li>
+                                                </a>
+                                                <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+
+                                                <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                            </ul>
+                                        </section>
+                                    </section>
+                                </section>
+                                <section class="intro-1-2-col">
+                                    <section class="img-bg bg_4 h-100">
+                                        <section class="intro-item-caption d-flex">
+                                            <h3 class="caption-title ">
+                                                <span>
+                                                    آیا سیگار کشیدن باعث افسردگی می شود؟
+                                                </span>
+                                            </h3>
+                                            <ul class="caption-info-bar d-flex">
+                                                <a href="#">
+                                                    <li><i class="material-icons">account_box</i> امیرحسین گل
+                                                        ختاب </li>
+                                                </a>
+                                                <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+
+                                                <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                            </ul>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <section class="contianer">
+
+            <aside class="sidebar">
+
+                <section class="section-row">
+                    <section class="accordation_menu-section mt-15px">
+                        <section class="accordation_menu">
+                            <section class="popular-posts d-flex">
+                                <input type="radio" name="accordation_menu" id="label-1" checked>
+                                <label for="label-1" class="accordion" id="popular-posts-title">
+                                    <h3 class="accordation_menu-title">
+                                        پست های محبوب
+                                    </h3>
+                                </label>
+                                <section class="accordation_menu-content">
+                                    <section class="scrollbar">
+                                        <section class="force-overflow">
+                                            <section class="popular-post-grids">
+                                                <article class="popular-post-grid d-flex">
+                                                    <div class="post-img">
+                                                        <a href="#"><img src="images/bus2.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="post-text">
+                                                        <a class="pp-title" href="single.html">لورم ایپسوم متن ساختگی با
+                                                            تولید سادگی نامفهوم از صنعت چاپ</a>
+                                                        <p>
+                                                            <span><i class="far fa-eye"></i>۵۶</span>
+                                                            <a href="#"><span>
+                                                                    <i class="fas fa-comments"></i>۳</span></a>
+                                                            <span>۲۵ تیر</span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- <div class="clearfix"></div> -->
+                                                </article>
+
+                                                <article class="popular-post-grid d-flex">
+                                                    <div class="post-img">
+                                                        <a href="#"><img src="images/bus1.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="post-text">
+                                                        <a class="pp-title" href="single.html">لورم ایپسوم متن ساختگی با
+                                                            تولید سادگی نامفهوم از صنعت چاپ</a>
+                                                        <p>
+                                                            <span><i class="far fa-eye"></i>۵۶</span>
+                                                            <a href="#"><span>
+                                                                    <i class="fas fa-comments"></i>۳</span></a>
+                                                            <span>۲۵ تیر</span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- <div class="clearfix"></div> -->
+                                                </article>
+
+                                                <article class="popular-post-grid d-flex">
+                                                    <div class="post-img">
+                                                        <a href="#"><img src="images/bus3.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="post-text">
+                                                        <a class="pp-title" href="single.html">لورم ایپسوم متن ساختگی با
+                                                            تولید سادگی نامفهوم از صنعت چاپ</a>
+                                                        <p>
+                                                            <span><i class="far fa-eye"></i>۵۶</span>
+                                                            <a href="#"><span>
+                                                                    <i class="fas fa-comments"></i>۳</span></a>
+                                                            <span>۲۵ تیر</span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- <div class="clearfix"></div> -->
+                                                </article>
+
+                                                <article class="popular-post-grid d-flex">
+                                                    <div class="post-img">
+                                                        <a href="#"><img src="images/bus4.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="post-text">
+                                                        <a class="pp-title" href="single.html">لورم ایپسوم متن ساختگی با
+                                                            تولید سادگی نامفهوم از صنعت چاپ</a>
+                                                        <p>
+                                                            <span><i class="far fa-eye"></i>۵۶</span>
+                                                            <a href="#"><span>
+                                                                    <i class="fas fa-comments"></i>۳</span></a>
+                                                            <span>۲۵ تیر</span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- <div class="clearfix"></div> -->
+                                                </article>
+                                            </section>
+                                        </section>
+
+                                    </section>
+                                </section>
+                            </section>
+
+                            <section class="new-post d-flex">
+                                <input type="radio" name="accordation_menu" id="label-2">
+                                <label for="label-2" class="accordion" id="new-post-title">
+                                    <h3 class="accordation_menu-title">
+                                        ارسالی های اخیر
+                                    </h3>
+                                </label>
+                                <section class="accordation_menu-content">
+                                    <section class="scrollbar">
+                                        <section class="force-overflow">
+                                            <section class="popular-post-grids">
+                                                <article class="popular-post-grid d-flex">
+                                                    <div class="post-img">
+                                                        <a href="#"><img src="images/tec2.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="post-text">
+                                                        <a class="pp-title" href="single.html">لورم ایپسوم متن ساختگی با
+                                                            تولید سادگی نامفهوم از صنعت چاپ</a>
+                                                        <p>
+                                                            <span><i class="far fa-eye"></i>۵۶</span>
+                                                            <a href="#"><span>
+                                                                    <i class="fas fa-comments"></i>۳</span></a>
+                                                            <span>۲۵ تیر</span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- <div class="clearfix"></div> -->
+                                                </article>
+
+                                                <article class="popular-post-grid d-flex">
+                                                    <div class="post-img">
+                                                        <a href="#"><img src="images/tec1.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="post-text">
+                                                        <a class="pp-title" href="single.html">لورم ایپسوم متن ساختگی با
+                                                            تولید سادگی نامفهوم از صنعت چاپ</a>
+                                                        <p>
+                                                            <span><i class="far fa-eye"></i>۵۶</span>
+                                                            <a href="#"><span>
+                                                                    <i class="fas fa-comments"></i>۳</span></a>
+                                                            <span>۲۵ تیر</span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- <div class="clearfix"></div> -->
+                                                </article>
+
+                                                <article class="popular-post-grid d-flex">
+                                                    <div class="post-img">
+                                                        <a href="#"><img src="images/tec3.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="post-text">
+                                                        <a class="pp-title" href="single.html">لورم ایپسوم متن ساختگی با
+                                                            تولید سادگی نامفهوم از صنعت چاپ</a>
+                                                        <p>
+                                                            <span><i class="far fa-eye"></i>۵۶</span>
+                                                            <a href="#"><span>
+                                                                    <i class="fas fa-comments"></i>۳</span></a>
+                                                            <span>۲۵ تیر</span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- <div class="clearfix"></div> -->
+                                                </article>
+
+                                                <article class="popular-post-grid d-flex">
+                                                    <div class="post-img">
+                                                        <a href="#"><img src="images/tec4.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="post-text">
+                                                        <a class="pp-title" href="single.html">لورم ایپسوم متن ساختگی با
+                                                            تولید سادگی نامفهوم از صنعت چاپ</a>
+                                                        <p>
+                                                            <span><i class="far fa-eye"></i>۵۶</span>
+                                                            <a href="#"><span>
+                                                                    <i class="fas fa-comments"></i>۳</span></a>
+                                                            <span>۲۵ تیر</span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- <div class="clearfix"></div> -->
+                                                </article>
+                                            </section>
+                                        </section>
+
+                                    </section>
+                                </section>
+                            </section>
+
+
+                            <section class="coments-of-user">
+                                <input type="radio" name="accordation_menu" id="label-3">
+                                <label for="label-3" class="accordion" id="coments-of-user-title">
+                                    <h3 class="accordation_menu-title">
+                                        نظرات و دیدگاه ها
+                                    </h3>
+                                </label>
+                                <section class="accordation_menu-content">
+                                    <section class="scrollbar">
+                                        <section class="force-overflow">
+                                            <section class="response">
+                                                <article class="media response-info d-flex">
+                                                    <div class="comment-owner d-flex">
+                                                        <img src="images/icon1.png" alt="">
+                                                        <h3 class="name-of-comment-owner">امیرحسین گل ختاب</h3>
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        <p class="comment-text-p">لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                                            چاپگرها و متون بلکه روزنامه
+                                                            و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                                            کاربردی می باشد
+                                                        </p>
+                                                        <div>
+                                                            <span class="date-of-created-comment">۲۵ تیر ۱۴۰۰</span>
+                                                            <a href="#" class="respon-the-comment">پاسخ دادن</a>
+                                                        </div>
+                                                    </div>
+
+                                                </article>
+                                            </section>
+
+                                            <section class="response">
+                                                <article class="media response-info d-flex">
+                                                    <div class="comment-owner d-flex">
+                                                        <img src="images/icon1.png" alt="">
+                                                        <h3 class="name-of-comment-owner">امیرحسین گل ختاب</h3>
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        <p class="comment-text-p">لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                                            چاپگرها و متون بلکه روزنامه
+                                                            و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                                            کاربردی می باشد
+                                                        </p>
+                                                        <div>
+                                                            <span class="date-of-created-comment">۲۵ تیر ۱۴۰۰</span>
+                                                            <a href="#" class="respon-the-comment">پاسخ دادن</a>
+                                                        </div>
+                                                    </div>
+
+                                                </article>
+                                            </section>
+
+                                            <section class="response">
+                                                <article class="media response-info d-flex">
+                                                    <div class="comment-owner d-flex">
+                                                        <img src="images/icon1.png" alt="">
+                                                        <h3 class="name-of-comment-owner">امیرحسین گل ختاب</h3>
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        <p class="comment-text-p">لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                                            چاپگرها و متون بلکه روزنامه
+                                                            و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                                            کاربردی می باشد
+                                                        </p>
+                                                        <div>
+                                                            <span class="date-of-created-comment">۲۵ تیر ۱۴۰۰</span>
+                                                            <a href="#" class="respon-the-comment">پاسخ دادن</a>
+                                                        </div>
+                                                    </div>
+
+                                                </article>
+                                            </section>
+
+                                            <section class="response">
+                                                <article class="media response-info d-flex">
+                                                    <div class="comment-owner d-flex">
+                                                        <img src="images/icon1.png" alt="">
+                                                        <h3 class="name-of-comment-owner">امیرحسین گل ختاب</h3>
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        <p class="comment-text-p">لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                                            چاپگرها و متون بلکه روزنامه
+                                                            و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                                            کاربردی می باشد
+                                                        </p>
+                                                        <div>
+                                                            <span class="date-of-created-comment">۲۵ تیر ۱۴۰۰</span>
+                                                            <a href="#" class="respon-the-comment">پاسخ دادن</a>
+                                                        </div>
+                                                    </div>
+
+                                                </article>
+                                            </section>
+
+                                            <section class="response">
+                                                <article class="media response-info d-flex">
+                                                    <div class="comment-owner d-flex">
+                                                        <img src="images/icon1.png" alt="">
+                                                        <h3 class="name-of-comment-owner">امیرحسین گل ختاب</h3>
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        <p class="comment-text-p">لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                                            چاپگرها و متون بلکه روزنامه
+                                                            و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                                            کاربردی می باشد
+                                                        </p>
+                                                        <div>
+                                                            <span class="date-of-created-comment">۲۵ تیر ۱۴۰۰</span>
+                                                            <a href="#" class="respon-the-comment">پاسخ دادن</a>
+                                                        </div>
+                                                    </div>
+
+                                                </article>
+                                            </section>
+
+                                            <section class="response">
+                                                <article class="media response-info d-flex">
+                                                    <div class="comment-owner d-flex">
+                                                        <img src="images/icon1.png" alt="">
+                                                        <h3 class="name-of-comment-owner">امیرحسین گل ختاب</h3>
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        <p class="comment-text-p">لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                                            چاپگرها و متون بلکه روزنامه
+                                                            و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                                            کاربردی می باشد
+                                                        </p>
+                                                        <div>
+                                                            <span class="date-of-created-comment">۲۵ تیر ۱۴۰۰</span>
+                                                            <a href="#" class="respon-the-comment">پاسخ دادن</a>
+                                                        </div>
+                                                    </div>
+
+                                                </article>
+                                            </section>
+
+                                            <section class="response">
+                                                <article class="media response-info d-flex">
+                                                    <div class="comment-owner d-flex">
+                                                        <img src="images/icon1.png" alt="">
+                                                        <h3 class="name-of-comment-owner">امیرحسین گل ختاب</h3>
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        <p class="comment-text-p">لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                                            چاپگرها و متون بلکه روزنامه
+                                                            و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                                            کاربردی می باشد
+                                                        </p>
+                                                        <div>
+                                                            <span class="date-of-created-comment">۲۵ تیر ۱۴۰۰</span>
+                                                            <a href="#" class="respon-the-comment">پاسخ دادن</a>
+                                                        </div>
+                                                    </div>
+
+                                                </article>
+                                            </section>
+
+                                            <section class="response">
+                                                <article class="media response-info d-flex">
+                                                    <div class="comment-owner d-flex">
+                                                        <img src="images/icon1.png" alt="">
+                                                        <h3 class="name-of-comment-owner">امیرحسین گل ختاب</h3>
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        <p class="comment-text-p">لورم ایپسوم متن ساختگی با تولید سادگی
+                                                            نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                                            چاپگرها و متون بلکه روزنامه
+                                                            و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                                                            کاربردی می باشد
+                                                        </p>
+                                                        <div>
+                                                            <span class="date-of-created-comment">۲۵ تیر ۱۴۰۰</span>
+                                                            <a href="#" class="respon-the-comment">پاسخ دادن</a>
+                                                        </div>
+                                                    </div>
+
+                                                </article>
+                                            </section>
+
+                                        </section>
+
+                                    </section>
+                                </section>
+                            </section>
+
+                        </section>
+
+                    </section>
+                </section>
+
+                <section class="srction-row">
+                    <section class="Online-price-of-currencyce-section mt-15px d-flex">
+                        <h2 class="Online-price-of-currencyce-header">قیمت بروز ارز</h2>
+                        <ul class="Online-price-of-currencyce-menu">
+                            <li><span class="currencyce-name no-color"> عنوان ارز </span><span class="Online-price no-color">قیمت به
+                                    تومان</span><span class="currencyce-contry">کشور</span></li>
+                            <li><span class="currencyce-name"> دلار: </span><span class="Online-price">۴۸,۹۵۰</span><img
+                                    src="images/flag-US.png"></img></li>
+                            <li><span class="currencyce-name"> یورو: </span><span class="Online-price">۵۳,۲۰۰</span><img
+                                    src="images/flag-URP.png"></img></li>
+                            <li><span class="currencyce-name"> پوند: </span><span class="Online-price">۶۲,۳۷۰</span><img
+                                    src="images/flag-BR.png"></img></li>
+                            <li><span class="currencyce-name"> دینار: </span><span class="Online-price">۳۸</span><img
+                                    src="images/flag-IRQ.png"></img></li>
+                            <li><span class="currencyce-name"> لیر: </span><span class="Online-price">۱,۸۰۰</span><img
+                                    src="images/flag-TU.png"></img></li>
+                            <li><span class="currencyce-name"> درهم: </span><span class="Online-price">۱۳,۵۹۰</span><img
+                                    src="images/flag-UE.png"></img></li>
+                            <li><span class="currencyce-name"> دلار: </span><span class="Online-price">۳۷,۰۲۰</span><img
+                                    src="images/flag-CA.png"></img></li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section class="section-row">
+                    <section class="Enter-the-discussion-section d-flex">
+                        <h2 class="aside-header">وارد بحث شوید</h2>
+                        <ul class="Enter-the-discussion-menu d-flex">
+                            <li class="Enter-the-discussion-option"><span>1</span><a href="#">هوش مصنوعی می‌تواند تصاویر
+                                    میکروسکوپی را از هولوگرام‌ها بازسازی کند.</a></li>
+                            <li class="Enter-the-discussion-option"><span>2</span><a href="#">شبکه‌ اجتماعی Threads قبل
+                                    از موعد در دسترس قرار گرفت و همین الان می‌تونین از اون استفاده کنین!</a></li>
+                            <li class="Enter-the-discussion-option"><span>3</span><a href="#">بروزرسانی اندروید 13 برای
+                                    این گوشی نوکیا منتشر شد</a></li>
+                            <li class="Enter-the-discussion-option"><span>4</span><a href="#">اپل احتمالاً iOS 17 را
+                                    برای آیفون‌‌های سری 8 و آیفون X منتشر نخواهد کرد</a></li>
+                            <li class="Enter-the-discussion-option"><span>5</span><a href="#">پایان پشتیبانی از گوشی‌
+                                    گلکسی A50 و سری اس 10</a></li>
+                            <li class="Enter-the-discussion-option"><span>6</span><a href="#">شیائومی 13 اولترا اواخر
+                                    ماه جاری میلادی به صورت جهانی معرفی خواهد شد</a></li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section class="section-row">
+                    <section class="special-videos-section d-flex mb-25px">
+                        <h2 class="aside-header">ویدیوی ویژه</h2>
+                        <article class="special-videos">
+                            <video src="videos/01.mp4" controls preload="metadata"
+                                poster="images/poster_1.webp"></video>
+                            <h3>آنباکس و نگاه نزدیک اپل واچ اولترا | Apple Watch Ultra Unboxing</h3>
+                            <p>
+                                <span>امیرحسین گل ختاب </span>
+                                <span class="viow-of-video">| <i class="fas fa-eye"></i>۲۰۰
+                                    | <i class="fas fa-comments"></i>۳۰</span>
+                            </p>
+                        </article>
+                    </section>
+                </section>
+
+            </aside>
+
+
+            <main class="main">
+
+                <section class="around-the-world-section main-section">
+                    <section class="main-section-header">
+                        <h2 class="">سراسر جهان</h2>
+                    </section>
+
+                    <section class="main-section-content-40-60">
+                        <section class="main-col">
+                            <article class="news-post">
+                                <img src="images/article1.jpg" alt="">
+                                <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                <ul class="article-info-bar d-flex">
+                                    <a href="#">
+                                        <li><i class="material-icons">account_box</i> امیرحسین گل
+                                            ختاب </li>
+                                    </a>
+                                    <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                    <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                </ul>
+                            </article>
+
+                            <article class="news-post">
+                                <img src="images/article3.jpg" alt="">
+                                <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                <ul class="article-info-bar d-flex">
+                                    <a href="#">
+                                        <li><i class="material-icons">account_box</i> امیرحسین گل
+                                            ختاب </li>
+                                    </a>
+                                    <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                    <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                </ul>
+                            </article>
+                        </section>
+
+                        <section class="main-col d-flex">
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/article4.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+                                        <a href="#">
+                                            <li><i class="material-icons">account_box</i> امیرحسین گل
+                                                ختاب </li>
+                                        </a>
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/article2.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+                                        <a href="#">
+                                            <li><i class="material-icons">account_box</i> امیرحسین گل
+                                                ختاب </li>
+                                        </a>
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/article5.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+                                        <a href="#">
+                                            <li><i class="material-icons">account_box</i> امیرحسین گل
+                                                ختاب </li>
+                                        </a>
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/article6.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+                                        <a href="#">
+                                            <li><i class="material-icons">account_box</i> امیرحسین گل
+                                                ختاب </li>
+                                        </a>
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                        </section>
+                    </section>
+
+
+
+                </section>
+
+
+
+                <section class="Lifestyle-section main-section mt-15px">
+                    <section class="main-section-header">
+                        <h2 class="">سبک زندگی</h2>
+                    </section>
+
+                    <section class="main-section-content-50-50">
+                        <section class="main-col">
+                            <article class="news-post">
+                                <img src="images/l1.jpg" alt="">
+                                <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                            </article>
+
+                            <article class="news-post">
+                                <img src="images/l3.jpg" alt="">
+                                <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+
+                            </article>
+                        </section>
+
+                        <section class="main-col">
+                            <article class="news-post">
+                                <img src="images/l2.jpg" alt="">
+                                <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                            </article>
+
+                            <article class="news-post">
+                                <img src="images/l4.jpg" alt="">
+                                <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+
+                            </article>
+                        </section>
+                    </section>
+                </section>
+
+
+
+                <section class="Business-section main-section mt-15px">
+                    <section class="main-section-header">
+                        <h2 class="">کسب و کار</h2>
+                    </section>
+
+                    <section class="main-section-content-100">
+                        <section class="main-col d-flex">
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/business1.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/business2.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/business3.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/business4.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                        </section>
+                    </section>
+
+
+                </section>
+
+                <section class="Technology-section main-section mt-15px">
+                    <section class="main-section-header">
+                        <h2 class="">تکنولوژی</h2>
+                    </section>
+
+                    <section class="main-section-content-100">
+                        <section class="main-col d-flex">
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/tech1.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/tech2.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/tech3.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                            <article class="news-post d-flex">
+                                <div class="news-post-img"><img src="images/tech6.jpg" alt=""></div>
+                                <div class="news-post-descreption">
+                                    <h3 class="article-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم </h3>
+                                    <ul class="article-info-bar d-flex">
+                                        <li>پنجشنبه، ۲۶ تیر ۱۴۰۰</li>
+                                        <li><i class="fas fa-comments text-yellow"></i>۳۰</li>
+                                    </ul>
+                                </div>
+                            </article>
+
+                        </section>
+                    </section>
+                </section>
+
+
+                <!-- <section class="entertainment-section">
+
+                </section>
+
+                <section class="Tourism-section">
+
+                </section> -->
+
+            </main>
+        </section>
+
+
+        <section class="advertising">
+            <section class="advertising-section">
+                <section class="advertising-row">
+                    <section class="advertise-title">
+                        <h2>
+                            <a href="#">
+                                تبلیغات
+                            </a>
+                        </h2>
+                    </section>
+                </section>
+
+                <section class="advertise-content">
+                    <section class="advertising-row d-flex">
+                        <section class="advertise">
+                            <img class="advertise-img" src="images/advertise_1.jpg" alt="">
+                        </section>
+                        <section class="advertise">
+                            <img class="advertise-img" src="images/advertise_2.jpg" alt="">
+                        </section>
+                        <section class="advertise">
+                            <img class="advertise-img" src="images/advertise_3.jpg" alt="">
+                        </section>
+                        <section class="advertise">
+                            <img class="advertise-img" src="images/advertise_4.jpeg" alt="">
+                        </section>
+                        <section class="advertise">
+                            <img class="advertise-img" src="images/advertise_5.jpg" alt="">
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <footer class="footer">
+            <section class="footer-section d-flex">
+                <section class="footer-row d-flex">
+                    <ul class="footer-menu maneged-account">
+                        <h4 class="footer-menu-title">مدیریت حساب کاربری</h4>
+                        <li class="footer-menu-item"><a href="#">ایجاد حساب کاربری</a></li>
+                        <li class="footer-menu-item"><a href="#">ورود به حساب کاربری</a></li>
+                        <li class="footer-menu-item"><a href="#">راهنمای سایت</a></li>
+                    </ul>
+
+
+
+                    <ul class="footer-menu">
+                        <h4 class="footer-menu-title">لینک های مفید</h4>
+                        <li class="footer-menu-item"><a href="#">باشگاه خبرنگاران جوان</a></li>
+                        <li class="footer-menu-item"><a href="#">خبرگذاری مهر آنلاین</a></li>
+                        <li class="footer-menu-item"><a href="#">خبرگذاری ایرنا</a></li>
+                        <li class="footer-menu-item"><a href="#">خبرگذاری خبرگذاری ورزش سه</a></li>
+                    </ul>
+
+
+                    <ul class="footer-menu">
+                        <h4 class="footer-menu-title">اخبار پیشنهادی</h4>
+                        <li class="footer-menu-item"><a href="#">اخبار سیاسی</a></li>
+                        <li class="footer-menu-item"><a href="#">اخبار اقتصادی</a></li>
+                        <li class="footer-menu-item"><a href="#">اخبار علمی</a></li>
+                        <li class="footer-menu-item"><a href="#">اخبار سینما</a></li>
+                    </ul>
+
+
+                    <ul class="footer-menu">
+                        <h4 class="footer-menu-title">سوالی دارید؟</h4>
+                        <li class="footer-menu-item"><i class="	fas fa-map-marker-alt"></i><a href="#">تهران، خیابان
+                                شهید غیبی</a></li>
+                        <li class="footer-menu-item"><i class="fas fa-phone"></i><a href="#">۰۹۳۶۲۰۵۵۵۴۷</a></li>
+                        <li class="footer-menu-item"><i class="material-icons">email</i><a
+                                href="#">a10.work.h@gmail.com</a></li>
+                    </ul>
+
+                </section>
+
+                <section class="footer-row d-flex">
+                    <section class="footer-col-1-2">
+                        <section class="newsletters">
+                            <form action="">
+                                <fieldset>
+                                    <legend class="newsletters-title">از جدیدترین اخبار روز دنیا باخبر شوید</legend>
+                                    <div class="newsletters-inputs">
+                                        <label for="email-input"></label>
+                                        <input type="email" class="newsletters-email-input" name="email-input"
+                                            id="email-input" placeholder="آدرس ایمیل خود را وارد نمایید">
+                                        <button class="newsletters-btn" type="submit"><a class="newsletters-btn-link"
+                                                href="#"><i class="fa fa-send"></i></a></button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </section>
+                    </section>
+
+                    <section class="footer-col-1-2">
+                        <section class="social-network">
+                            <section class="social-network-title-section">
+                                <h3 class="social-network-title">در شبکه های اجتماعی ما عضو شوید</h3>
+                            </section>
+                            <nav>
+                                <ul class="social-network-list d-flex">
+                                    <li class="social-network-list-item"><a href="#"
+                                            class="social-network-list-item-link"><i class="fa fa-twitter social-media-icon"></i></a></li>
+                                    <li class="social-network-list-item"><a href="#"
+                                            class="social-network-list-item-link"><i class="fa fa-instagram social-media-icon"></i></a>
+                                    </li>
+                                    <li class="social-network-list-item"><a href="#"
+                                            class="social-network-list-item-link"><i class="fa fa-whatsapp social-media-icon"></i></a>
+                                    </li>
+                                    <li class="social-network-list-item"><a href="#"
+                                            class="social-network-list-item-link"><i class="fa fa-telegram social-media-icon"></i></a>
+                                    </li>
+                                    <li class="social-network-list-item"><a href="#"
+                                            class="social-network-list-item-link"><i
+                                                class="fa fa-facebook-official social-media-icon"></i></a></li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </section>
+
+                </section>
+
+                <section class="footer-row">
+                    <section class="copy-right">
+                        <p>
+                            تمامی حقوق مادی و معنوی این سایت متعلق به امیرحسین گل ختاب می باشد و هرگونه کپی برداری
+                            غیرقانونی
+                            محسوب خواهد شد
+                        </p>
+                    </section>
+                </section>
+            </section>
+        </footer>
+    </section>
+
+</body>
+
+<script src="js/PersianDate/dist/persian-date.js"></script>
+<script src="js/app.js"></script>
+
+</html>
