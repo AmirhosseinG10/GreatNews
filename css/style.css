@@ -473,7 +473,7 @@ i.material-icons {
 
 .intro-1-2-col .intro-row {
     height: calc(50% - .6px);
-    margin-bottom: 1.4px;
+    margin-bottom: 1px;
 }
 
 .intro-1-2-col .intro-row:first-child {

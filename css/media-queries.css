@@ -1,341 +1,366 @@
 @media screen and (max-width: 1200px) {
+	/* index page media queris */
+	/* main menu section */
+	.main-menu-item-link {
+		padding: 15px 0.5vw;
+		font-size: 1.25vw;
+	}
 
-    /* index page media queris */
-    /* main menu section */
-    .main-menu-item-link {
-        padding: 15px 0.5vw;
-        font-size: 1.25vw;
-    }
+	.post-img {
+		width: 10vw;
+	}
 
-    .post-img {
-        width: 10vw;
-    }
-
-    .search-box {
-        font-size: 1.1vw;
-    }
+	.search-box {
+		font-size: 1.1vw;
+	}
 }
 
 @media screen and (max-width: 992px) {
+	/* index page media queris */
+	/* header section */
+	.top-menu,
+	.header-second-section,
+	.main-menu-section,
+	.intro-section,
+	.contianer,
+	.advertising-row,
+	.footer-row {
+		width: 95%;
+	}
 
-    /* index page media queris */
-    /* header section */
-    .top-menu,
-    .header-second-section,
-    .main-menu-section,
-    .intro-section,
-    .contianer,
-    .advertising-row,
-    .footer-row {
-        width: 95%;
-    }
+	.top-menu__item,
+	.top-menu__link {
+		font-size: 1.1vw;
+	}
 
-    .top-menu__item,
-    .top-menu__link {
-        font-size: 1.1vw;
-    }
+	.social-media-icon {
+		font-size: 2vw;
+	}
 
-    .social-media-icon {
-        font-size: 2vw;
-    }
+	.section-col span {
+		font-size: 0.7rem;
+	}
 
-    .section-col span {
-        font-size: .7rem;
-    }
+	.header-weather {
+		width: 6rem;
+	}
 
-    .header-weather {
-        width: 6rem;
-    }
+	.main-section-header h2 {
+		font-size: 3vw;
+	}
 
-    .main-section-header h2 {
-        font-size: 3vw;
-    }
+	.article-header {
+		padding-bottom: 5px;
+	}
 
-    .article-header {
-        padding-bottom: 5px;
-    }
+	.accordation_menu-title {
+		font-size: 1.5vw;
+	}
 
-    .accordation_menu-title {
-        font-size: 1.5vw;
-    }
+	.Online-price-of-currencyce-header {
+		font-size: 2.3vw;
+	}
 
-    .Online-price-of-currencyce-header {
-        font-size: 2.3vw;
-    }
+	.comment-text-p,
+	.date-of-created-comment,
+	.respon-the-comment {
+		font-size: 0.7vw;
+	}
 
-    .comment-text-p,
-    .date-of-created-comment,
-    .respon-the-comment {
-        font-size: .7vw;
-    }
+	.name-of-comment-owner {
+		font-size: 0.9vw;
+	}
 
-    .name-of-comment-owner {
-        font-size: .9vw;
-    }
+	/* advertising section */
+	.advertising-row {
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
 
-
-    /* advertising section */
-    .advertising-row {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-    .advertise {
-        width: calc(calc(100% / 3) - 15px) !important;
-        height: 15vw;
-        margin: 7.5px 7.5px;
-    }
-
+	.advertise {
+		width: calc(calc(100% / 3) - 15px) !important;
+		height: 15vw;
+		margin: 7.5px 7.5px;
+	}
 }
 
 @media screen and (max-width: 767px) {
+	.intro-section i.fas {
+		font-size: 0.83rem !important;
+	}
 
-    .intro-section i.fas {
-        font-size: .83rem !important;
-    }
+	.intro-section i.material-icons {
+		font-size: 0.95rem;
+	}
 
-    .intro-section i.material-icons {
-        font-size: .95rem;
-    }
+	.top-menu__social-media-section {
+		display: none !important;
+	}
 
-    .top-menu__social-media-section {
-        display: none !important;
-    }
+	.top-menu__lang-and-time-section {
+		width: 170px;
+		order: 2;
+		justify-content: space-between;
+	}
 
-    .top-menu__lang-and-time-section {
-        width: 170px;
-        order: 2;
-        justify-content: space-between;
-    }
+	.top-menu__menu-section {
+		order: 1;
+	}
 
-    .top-menu__menu-section {
-        order: 1;
-    }
+	.lang-box {
+		order: 2;
+	}
 
-    .lang-box {
-        order: 2;
-    }
+	.top-menu__item,
+	.top-menu__link,
+	.fa-chevron-down {
+		font-size: 0.5rem !important;
+	}
 
-    .top-menu__item,
-    .top-menu__link,
-    .fa-chevron-down {
-        font-size: .5rem !important;
-    }
+	.search-icon {
+		font-size: 0.8rem !important;
+	}
 
-    .search-icon {
-        font-size: .8rem !important;
-    }
+	.search-box {
+		font-size: 0.5rem;
+		width: 130px;
+	}
 
-    .search-box {
-        font-size: .5rem;
-        width: 130px;
-    }
+	.main-menu-item-link {
+		font-size: 0.6rem;
+	}
 
-    .main-menu-item-link {
-        font-size: .6rem;
-    }
+	/* Intro section */
 
-    /* Intro section */
+	.intro-news {
+		height: fit-content;
+	}
 
-    .intro-news {
-        height: fit-content;
-    }
+	.h-100 {
+		height: 400px;
+	}
 
-    .h-100 {
-        height: 400px;
-    }
+	.bg_1 {
+		margin: 1px;
+	}
 
-    .bg_1 {
-        margin: 1px;
-    }
+	.intro-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(2, auto);
+	}
 
-    .intro-row {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, auto);
-    }
+	.intro-1-2-col .intro-row:first-child {
+		grid-template-columns: 1fr;
+	}
 
-    .intro-1-2-col .intro-row:first-child {
-        grid-template-columns: 1fr;
-    }
+	.intro-1-2-col .intro-row {
+		height: auto;
+		margin-bottom: 0;
+	}
 
-    .intro-1-2-col .intro-row {
-        height: auto;
-        margin-bottom: 1px;
-    }
+	.caption-title span {
+		font-size: 0.9rem;
+	}
 
-    .caption-title span {
-        font-size: .9rem;
-    }
+	.caption-info-bar li {
+		font-size: 0.7rem;
+	}
 
-    .caption-info-bar li {
-        font-size: .7rem;
-    }
+	/* sidebar */
 
-    /* sidebar */
+	.name-of-comment-owner {
+		font-size: 1.2vw;
+	}
 
-    .name-of-comment-owner {
-        font-size: 1.2vw;
-    }
+	.comment-text-p,
+	.date-of-created-comment,
+	.respon-the-comment {
+		font-size: 1vw;
+	}
 
-    .comment-text-p,
-    .date-of-created-comment,
-    .respon-the-comment {
-        font-size: 1vw;
-    }
-
-
-    /* advertising section */
-    .advertise {
-        width: calc(calc(100% / 2) - 15px) !important;
-        height: 25vw;
-        margin: 7.5px 7.5px;
-    }
+	/* advertising section */
+	.advertise {
+		width: calc(calc(100% / 2) - 15px) !important;
+		height: 25vw;
+		margin: 7.5px 7.5px;
+	}
 }
 
 @media screen and (max-width: 576px) {
+	/* header section */
+	.top-menu {
+		height: 50px;
+	}
 
-    /* header section */
-    .top-menu {
-        height: 50px;
+	.top-menu__menu,
+	.lang-box,
+	.search-box-section,
+	.main-menu-section {
+		display: none !important;
+	}
+
+	.top-menu__logo-768px {
+		display: flex !important;
+		align-items: center;
+	}
+
+	.header-logo-section {
+		width: 150px;
+	}
+	i:not(
+			.material-icons,
+			.weather-icon,
+			.social-media-icon,
+			.search-icon,
+			.fa-chevron-down,
+			.fa-language,
+			.fa-send
+		) {
+		font-size: 3vw !important;
+	}
+
+	i.material-icons {
+		font-size: 2.8vw;
+	}
+
+	.top-menu__lang-and-time-section {
+		justify-content: end;
+	}
+
+	.contianer {
+		grid-template-areas: "sidebar sidebar" "main main" "advertising advertising";
+		grid-template-columns: 1fr;
+	}
+
+	.main {
+		grid-template-rows: repeat(3, auto);
+	}
+
+	.main-section {
+		grid-template-rows: 1fr;
+	}
+
+	.main-section-content-40-60 {
+		grid-template-columns: 1fr;
+	}
+
+    .main-section-header h2 {
+        font-size: 18px;
     }
 
-    .top-menu__menu {
-        display: none;
+    
+    .Business-section .news-post,
+    .Technology-section .news-post {
+        flex-direction: column;
     }
-
-    .top-menu__logo-768px {
-        display: flex !important;
-        align-items: center;
-    }
-
-    .header-logo-section {
-        width: 150px;
-    }
-
-    .search-box-section {
-        display: none !important;
-    }
-
-    .main-menu-section {
-        display: none !important;
-    }
-
-
-    i:not(.material-icons, .weather-icon, .social-media-icon, .search-icon, .fa-chevron-down, .fa-language, .fa-send) {
-        font-size: 2.2vw !important;
-    }
-
-    i.material-icons {
-        font-size: 2.8vw;
-    }
-
-
-    .contianer {
-        grid-template-areas: "sidebar sidebar" "main main" "advertising advertising";
-        grid-template-columns: 1fr;
-    }
-
-    .main {
-        grid-template-rows: repeat(3, 440px);
-    }
-
-    /* sidebar */
-    .accordation_menu-title {
-        font-size: 2.5vw;
-    }
-
-    .post-img {
-        width: 20vw;
-        margin-left: 1.5vw;
-    }
-
-    a.pp-title,
-    .aside-header,
-    .Enter-the-discussion-menu span {
-        font-size: 2.2vw;
-    }
-
-    .post-text p {
-        font-size: 2vw;
-        margin-top: 8vw;
-    }
-
-    .comment-text-p,
-    .date-of-created-comment,
-    .respon-the-comment,
-    .Enter-the-discussion-menu a,
-    .special-videos span,
-    .article-header,
-    .footer-menu-item a,
-    .newsletters-email-input,
-    .copy-right {
-        font-size: 1.8vw;
-    }
-
-    .Online-price-of-currencyce-header,
-    .social-media-icon,
-    .fa-send {
-        font-size: 3vw;
-    }
-
-    .Online-price-of-currencyce-menu span,
-    .special-videos h3,
-    .name-of-comment-owner,
-    .footer-menu-title,
-    .newsletters-title,
-    .social-network-title {
-        font-size: 2vw;
-    }
-
-    .footer-menu-item i.material-icons {
-        font-size: 2vw !important;
-        top: 1px;
-    }
-
-    .article-info-bar li {
-        font-size: 1.5vw;
-    }
-
-    .news-post-img {
-        width: 45%;
-    }
-
-    /* advertising section */
-    .advertise {
-        width: calc(calc(100% / 1) - 15px) !important;
-        height: 50vw;
-        margin: 7.5px 7.5px;
-    }
-
-    /* footer section */
-    .newsletters-email-input {
-        width: 80%;
-    }
-
-
-    .header-menu-logo-768px i {
-        font-size: .8rem !important;
-    }
-
-    /* footer section */
-    .footer-row {
-        flex-wrap: wrap;
-    }
-
-    .footer-menu-title,
-    .footer-menu-item {
-        line-height: 5;
-    }
-
-    .footer-col-1-2 {
+    
+    .Business-section .news-post-img,
+    .Technology-section .news-post-img {
         width: 100%;
+        height: 90px;
+        margin-bottom: 10px;
     }
 
-    .newsletters {
-        padding-bottom: 15px;
-        border-bottom: 1px #777777 solid;
-        margin-bottom: 15px;
+     .Business-section img,
+    .Technology-section img {
+        height: 100%;
+        object-fit: cover;
     }
+    
+	/* sidebar */
+	.accordation_menu-title {
+		font-size: 2.5vw;
+	}
 
+	.post-img {
+		width: 20vw;
+		margin-left: 1.5vw;
+	}
 
+	a.pp-title,
+	.aside-header,
+	.Enter-the-discussion-menu span {
+		font-size: 2.2vw;
+	}
+
+	.post-text p {
+		font-size: 2vw;
+		margin-top: 8vw;
+	}
+
+	.comment-text-p,
+	.date-of-created-comment,
+	.respon-the-comment,
+	.Enter-the-discussion-menu a,
+	.special-videos span,
+	.article-header,
+	.footer-menu-item a,
+	.newsletters-email-input,
+	.copy-right {
+		font-size: 1.8vw;
+	}
+
+	.Online-price-of-currencyce-header,
+	.social-media-icon,
+	.fa-send {
+		font-size: 3vw;
+	}
+
+	.Online-price-of-currencyce-menu span,
+	.special-videos h3,
+	.name-of-comment-owner,
+	.footer-menu-title,
+	.newsletters-title,
+	.social-network-title {
+		font-size: 2vw;
+	}
+
+	.footer-menu-item i.material-icons {
+		font-size: 2vw !important;
+		top: 1px;
+	}
+
+	.article-info-bar li {
+		font-size: 1.5vw;
+	}
+
+	.news-post-img {
+		width: 45%;
+	}
+
+	/* advertising section */
+	.advertise {
+		width: calc(calc(100% / 1) - 15px) !important;
+		height: 50vw;
+		margin: 7.5px 7.5px;
+	}
+
+	/* footer section */
+	.newsletters-email-input {
+		width: 80%;
+	}
+
+	.header-menu-logo-768px i {
+		font-size: 0.8rem !important;
+	}
+
+	/* footer section */
+	.footer-row {
+		flex-wrap: wrap;
+	}
+
+	.footer-menu-title,
+	.footer-menu-item {
+		line-height: 5;
+	}
+
+	.footer-col-1-2 {
+		width: 100%;
+	}
+
+	.newsletters {
+		padding-bottom: 15px;
+		border-bottom: 1px #777777 solid;
+		margin-bottom: 15px;
+	}
 }
