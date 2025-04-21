@@ -53,10 +53,10 @@
 
 @font-face {
     font-family: Vazir;
-    src: url("../Fonts/Font-Family/Vazir.ttf") format("truetype"),
-        url("../Fonts/Font-Family/Vazir.eot") format("embedded-opentype"),
-        url("../Fonts/Font-Family/Vazir.woff2") format("woff2"),
-        url("../Fonts/Font-Family/Vazir.woff") format("woff");
+    src: url("../fonts/font-family/Vazir.ttf") format("truetype"),
+        url("../fonts/font-family/Vazir.eot") format("embedded-opentype"),
+        url("../fonts/font-family/Vazir.woff2") format("woff2"),
+        url("../fonts/font-family/Vazir.woff") format("woff");
 }
 
 /* Reddy Classes */
